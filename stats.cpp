@@ -1,4 +1,6 @@
 #include "stats.h"
+#include <math.h>
+
 using namespace Statistics;
 
 Stats Statistics::ComputeStatistics(const std::vector<float>& list ) {
